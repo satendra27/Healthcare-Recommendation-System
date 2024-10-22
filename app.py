@@ -12,11 +12,11 @@ app = Flask(__name__)
 
 # load databasedataset===================================
 sym_des = pd.read_csv("symtoms_df.csv")
-precautions_df = pd.read_csv("C:\\Users\\krishna computers\\Desktop\\Machine Learning\\Medicine Recommendation System\\precautions_df.csv")
-workout_df = pd.read_csv("C:\\Users\\krishna computers\\Desktop\\Machine Learning\\Medicine Recommendation System\\workout_df.csv")
-description_df = pd.read_csv("C:\\Users\\krishna computers\\Desktop\\Machine Learning\\Medicine Recommendation System\\description.csv")
-medications_df = pd.read_csv('C:\\Users\\krishna computers\\Desktop\\Machine Learning\\Medicine Recommendation System\\medications.csv')
-diets_df = pd.read_csv("C:\\Users\\krishna computers\\Desktop\\Machine Learning\\Medicine Recommendation System\\diets.csv")
+precautions_df = pd.read_csv("precautions_df.csv")
+workout_df = pd.read_csv("workout_df.csv")
+description_df = pd.read_csv("description.csv")
+medications_df = pd.read_csv('medications.csv')
+diets_df = pd.read_csv("diets.csv")
 
 
 # load model===========================================
